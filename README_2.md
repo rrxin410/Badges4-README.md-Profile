@@ -37,14 +37,14 @@ This notebook performs:
 Run the notebook directly in Google Colab.
 
 ------------------------------------------------------------
-## Task 2 – Fashion-MNIST Denoising (MLP & CNN)
+## Task 2 – Fashion-MNIST Denoising with MLP & CNN
 ------------------------------------------------------------
 
 Implemented in:
 A2_2.ipynb
 
 This notebook includes:
-- Loading noisy/clean Fashion-MNIST CSV files
+- Loading noisy and clean Fashion-MNIST CSV files
 - Normalizing image inputs
 - Training an MLP autoencoder
 - Training a CNN autoencoder
@@ -57,9 +57,9 @@ Run the notebook directly in Google Colab.
 ------------------------------------------------------------
 
 Implemented in:
-A2_3 (included inside report)
+All included inside report
 
-This task uses an LLM to propose safe, pixel-aligned data augmentation strategies for Task 2.
+This task uses LLM-GPT 5.1 to propose safe, pixel-aligned data augmentation strategies for Task 2.
 No executable code is required.
 
 ------------------------------------------------------------
@@ -79,14 +79,16 @@ Outputs include learning curves and a policy visualization GIF.
 
 Run the notebook directly in Google Colab.
 
-Folder Structure
+------------------------------------------------------------
+## Folder Structure
+------------------------------------------------------------
 
 code_Colab_ipynb/
 - A2_1.ipynb        (Linear regression & K-means)
 - A2_2.ipynb        (MLP & CNN denoising)
-- A2_3              (LLM task, inside report)
 - A2_4.ipynb        (Q-learning for FrozenLake)
-- README_A2.md
+
+README_2.md
 
 GaoRuoxin_A2_report.pdf     (Final report)
 
